@@ -1,0 +1,36 @@
+buat fungsi dengan nama myapp yang memiliki parameter sbb
+name,profesi,watak,tabungan,hutang.
+-tulis dan simpan name dengan nama anda
+-pilih profesi anda dari 3 pilihan yang tersedia
+-pilih watak anda (rajin atau malas)
+-masukkan 0 dalam tabungan
+-masukkan 0 dalam hutang
+1.JIKA semua atau salah satu dari dari parameter yang berisikan tulisan kosong maka tampilkan : masukkan semua variabel untuk memulai app gak jelas ini.
+2  JIka semua semua parameter dimasukkan dan watak yang dipilih adalah rajin dan profesi yang dipilih adalah petani
+  ----maka tampilkan name+' adalah seorang '+profesi+' yang '+watak+' ia setiap hari keladang untuk melakukan pekerjaannya dan menyimpan uang tabunganya untuk menikah.
+  ------------pastikan watak yang dipilih adalah rajin.. jika watak yang dipilih rajin maka lakukan perulangan pada tabungannya...maka jika tabungannya mencapai 10 maka tampilkan
+	------------------------------tabungan+name+sudah cukup,iapun melamar pujaan hatinya.
+  -------------------jika tabungan belum mencapai 10 maka tampilkan = name+masih menabung.
+2.1------ jika semua parameter diisi namun watak yang dipilih adalah malas maka tampilkan =name+ adalah seorang +profesi+ yang +watak+ ia jarang keladang.
+    ------------------pastikan watak yang dipilih adalah malas....jika watak yang dipilih adalah malas maka lakukan perulangan dengan parameter hutang.
+    --------------------jika hutang sudah mencapai 10 maka tampilkan = name+ banyak hutang,ia pun bunuh diri
+    ---------------------jika hutang belum mencapai 10 maka tampilkan= name+ berhutang ke tetangga,hutang +name+ saat ini adalah: +hutang.
+    3  JIka semua semua parameter dimasukkan dan watak yang dipilih adalah rajin dan profesi yang dipilih adalah pedagang
+      ----maka tampilkan name+' adalah seorang '+profesi+' yang '+watak+' ia setiap hari bekerja dan menyimpan uang tabunganya untuk mengembangkan usahanya'
+      ------------pastikan watak yang dipilih adalah rajin.. jika watak yang dipilih rajin maka lakukan perulangan pada tabungannya...maka jika tabungannya mencapai 10 maka tampilkan
+    	------------------------------'tabungan '+ name+' sudah cukup dari hasil berdagang,ia pun membuka supermarket di kotanya'
+      -------------------jika tabungan belum mencapai 10 maka tampilkan = name+masih menabung.
+    3.1------ jika semua parameter diisi namun watak yang dipilih adalah malas maka tampilkan =name+' adalah seorang '+profesi+' yang '+watak+' ia membiarkan orang lain melakukan pekerjaannya'.
+      --------------juga tampilkan 'ia ditipu temannya dan asetnya dijual sehingga ia meminjam modal ke bank'
+        ------------------pastikan watak yang dipilih adalah malas....jika watak yang dipilih adalah malas maka lakukan perulangan dengan parameter hutang.
+        --------------------jika hutang sudah mencapai 10 maka tampilkan = name+' banyak hutang,ia pun jadi gembel'
+        ---------------------jika hutang belum mencapai 10 maka tampilkan= name+' berhutang ke bank'
+        4  JIka semua semua parameter dimasukkan dan watak yang dipilih adalah rajin dan profesi yang dipilih adalah penganguran
+          ----maka tampilkan name+' adalah seorang '+profesi+' yang '+watak+' ia menganggur setiap hari'
+          -------tampilkan juga : nama+'-pun dipilih sebagai penganguran teladan tahun ini'
+        4.1 JIka semua semua parameter dimasukkan dan watak yang dipilih adalah malas dan profesi yang dipilih adalah penganguran
+          ----maka tampilkan name+' malas keluar rumah walaupun ia tidak punya kesibukan di rumah'
+          -------tampilkan juga : 'ia pun jadi hikikomori'
+
+          5.jika semua paramater tidak cocok
+          maka tampilkan  'tidak ada pilihan yg cocok'
